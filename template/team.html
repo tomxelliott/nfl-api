@@ -1,0 +1,11 @@
+<h1>{{.PageTitle}}</h1>
+<ul>
+{{range .Teams}}
+    <li class="done">Team Info:
+        <ul>Coach: {{.Info.Coach}}</ul>
+        <ul>Number of SuperBowl Titles: {{.Info.NoOfTitles}}</ul>
+        <ul>Stadium: {{.Info.Stadium}}</ul>
+    </li>
+    <br>
+{{end}}
+</ul>

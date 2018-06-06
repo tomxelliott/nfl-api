@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "tomxelliott/nfl-api-tom",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "1234"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
