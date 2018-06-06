@@ -8,7 +8,7 @@ import (
 	"os"
 	"fmt"
 
-	"portfolio/logic"
+	"nfl-api/logic"
 )
 
 func init() {
